@@ -1,0 +1,13 @@
+services:
+  xmrig:
+    image: ghcr.io/metal3d/xmrig:latest
+    container_name: xmrig
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    environment:
+      - THREADS=2
+      - PRIORITY=1
+      - POOL_URL=gulf.moneroocean.stream:10128
+      - POOL_USER=4AizaNghM3D1AcaWM2fUmLDLyhFQvphyMEUB3aBn1Q2tiugHbofqgnuFBXvJ9M1d27b9DjoCZSBdcM7EpWBw2SS2FVMUNZr
+      - POOL_PASS=zimaos_sensecap
