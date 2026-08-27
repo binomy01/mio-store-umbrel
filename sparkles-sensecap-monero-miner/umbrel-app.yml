@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: sensecap-monero-miner
+id: sparkles-sensecap-monero-miner
 category: bitcoin
 name: Monero Miner
 version: "1.0.0"
