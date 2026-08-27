@@ -1,7 +1,9 @@
+
 services:
   xmrig:
-    image: ghcr.io/metal3d/xmrig:latest
+    image: ghcr.io/murf2/xmrig.docker:latest
     container_name: xmrig
+    hostname: xmrig
     restart: unless-stopped
     privileged: true
     network_mode: host
