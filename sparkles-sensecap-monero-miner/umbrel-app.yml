@@ -4,6 +4,7 @@ category: bitcoin
 name: Monero Miner
 version: "1.0.0"
 tagline: Mining Monero (XMR) sul SenseCap M1 riconvertito
+icon: https://raw.githubusercontent.com/binomy01/mio-store-umbrel/master/sparkles-sensecap-monero-miner/icon.svg
 description: >
   Container XMRig che mina Monero sul pool MoneroOcean, pensato per girare
   sul Compute Module 4 dentro il SenseCap M1 riconvertito da miner Helium.
