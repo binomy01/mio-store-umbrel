@@ -1,0 +1,18 @@
+manifestVersion: 1
+id: sensecap-monero-miner
+category: bitcoin
+name: Monero Miner
+version: "1.0.0"
+tagline: Mining Monero (XMR) sul SenseCap M1 riconvertito
+description: >
+  Container XMRig che mina Monero sul pool MoneroOcean, pensato per girare
+  sul Compute Module 4 dentro il SenseCap M1 riconvertito da miner Helium.
+developer: Uso personale
+website: https://www.getmonero.org
+repo: https://github.com/TUO-USERNAME/mio-store-umbrel
+support: https://github.com/TUO-USERNAME/mio-store-umbrel/issues
+port: 3000
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
